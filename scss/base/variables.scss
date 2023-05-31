@@ -1,0 +1,92 @@
+// Container
+$container-size: 1400px;
+$container-size-small: 904px;
+$container-pd-desk: 84px;
+$container-pd-left-md: 50px;
+$container-pd-right-md: 50px;
+$container-pd-left-tablet: 25px;
+$container-pd-right-tablet: 25px;
+$container-pd-left-mobile: 12px;
+$container-pd-right-mobile: 12px;
+
+// Offsets
+$offset-wrapper: 155px;
+$offset-wrapper-tablet: 116px;
+$offset-header: 132px;
+$offset-header-tablet: 120px;
+$offset-header-mobile: 58px;
+
+// Fonts
+$font-family-inter: 'Inter', Arial, sans-serif;
+$font-family-fugue: 'Fugue', Arial, sans-serif;
+$font-family-mulish: 'Mulish', Arial, sans-serif;
+
+$font-family-montserrat: 'Montserrat', Arial, sans-serif;
+
+$font-size-base: 16px;
+$font-size-base-mobile: 14px;
+$line-height-base: 1.5;
+
+// Colors
+$color-base-origin: #003DFF;
+$color-base: rgba($color-base-origin , 0.9);
+$white-true: #FFF;
+$black-true: #000;
+$black-true-transparent: rgba($black-true, 0.5);
+$color-black: #202020;
+$color-blue-line: #5F93F7;
+$color-dark-blue: #102150;
+$color-dark-blue-2: #133286;
+$color-dark-blue-3: #203B87;
+$color-dark-blue-4: #143185;
+$color-gray: #CBCBCB;
+$color-gray-2: #C7C7C7;
+$color-light-gray: #E5E5E5;
+$color-red: #CE3738;
+$color-download: #4f92ff;
+$color-tags: #8e8e8e;
+$color-external: #5693FC;
+$color-border: #D7D7D7;
+$color-error: #FF7171;
+$color-secondary: #ECEFFB;
+$color-secondary-2: #BDBFC9;
+$color-secondary-3: #D9D9D9;
+$color-secondary-4: #F5F5F5;
+$color-info: #8A8A8A;
+$color-primary: #184FFF;
+$color-primary-2: #183EDD;
+$color-sky: rgba(20,25,82);
+$color-sky-light: #BCCBFC;
+$color-ocean: #203b87;
+$color-ocean-light: #EDEFFB;
+$color-danger: #FF4F4F;
+$color-danger-2: #FF1C1C;
+$color-info-secondary: rgba(32, 32, 32, 0.5);
+$color-info-secondary-2: rgba($color-black, 0.2);
+$color-succes: #1AB900;
+
+// Breakpoints
+$mobile-size: 320px;
+$mobile-size-sm: 375px;
+$mobile-size-md: 475px;
+$tablet-size: 768px;
+$desktop-md-size: 1024px;
+$desktop-lg-size: 1280px;
+$desktop-ll-size: 1400px;
+$desktop-xl-size: 1440px;
+
+// Other
+$line-width: 1.5px;
+$shadow-default: 0 40px 80px rgba($black-true, .05);
+$shadow-default-hover: 0 40px 80px rgba($black-true, .1);
+$img-check: url("data:image/svg+xml,%3Csvg width='21' height='17' viewBox='0 0 21 17' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 11L5.5 15.5L20 1' stroke='%235893FB' stroke-width='2'/%3E%3C/svg%3E%0A");
+$shadow-gray: 0px 4px 30px rgba(11, 32, 95, 0.15);
+
+// transitions
+$transtion-default: all 0.3s ease;
+
+$gradient-purple: linear-gradient(225deg, #3706E2 0%, #080121 79.86%, #03000E 100%);
+$gradient-primary-light: linear-gradient(270deg, rgba(0, 61, 255, 0.2) 0%, rgba(255, 255, 255, 0) 79.86%, rgba(236, 239, 251, 0) 100%);
+$gradient-primary-light-2: linear-gradient(110.05deg, $color-base-origin 0%, rgba(0, 61, 255, 0) 100%);
+$gradient-img-filter: linear-gradient(180deg, rgba($black-true, 0.5) 0%, rgba($black-true, 0) 100%);
+
